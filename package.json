@@ -1,0 +1,28 @@
+{
+  "name": "webpack-init",
+  "version": "1.0.0",
+  "description": "simple project initialization using webpack + es6 + scss ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch --colors",
+    "server": "webpack-dev-server --watch --colors"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "scss"
+  ],
+  "author": "luckykaiyi",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}
