@@ -2,7 +2,6 @@
   "name": "webpack-init",
   "version": "1.0.0",
   "description": "simple project initialization using webpack + es6 + scss ...",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --watch --colors",
@@ -14,6 +13,10 @@
     "scss"
   ],
   "author": "luckykaiyi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckykaiyi/webpack-init.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
